@@ -1,11 +1,4 @@
-bash# In your repository, update requirements.txt:
-echo "streamlit>=1.28.0
-pandas>=2.1.0  
-numpy>=1.26.0
-plotly>=5.15.0
-openpyxl>=3.1.0" > requirements.txt
-
-# Commit and push
-git add requirements.txt
-git commit -m "Fix Python 3.13 compatibility"
-git push origin main
+streamlit
+pandas
+numpy
+plotly
